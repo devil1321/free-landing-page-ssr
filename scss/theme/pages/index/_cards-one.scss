@@ -1,0 +1,20 @@
+.cards-one{
+    margin-top: 100px;
+    h2{
+        margin:40px auto;
+        text-align: center;
+        width: 30%;
+    }
+    &__group{
+       
+        @include createFlex(row,center,center,wrap);
+    }
+    &__card{
+        margin:0px 20px;
+        text-align: center;
+        width: calc(80% / 3);
+        svg{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1195.834" height="656.666" viewBox="0 0 1195.834 656.666">
+  <defs>
+    <filter id="cardBg" x="0" y="0" width="1195.834" height="656.666" filterUnits="userSpaceOnUse">
+      <feOffset dy="100" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-color="#1f485d" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff5353"/>
+    </linearGradient>
+    <filter id="Rectangle_7" x="671.408" y="126.53" width="89.783" height="51.751" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_211" data-name="Group 211" transform="translate(17.734 -148.557) rotate(4)">
+    <g id="Earnings" transform="translate(165 186)">
+      <g transform="matrix(1, -0.07, 0.07, 1, -172.33, -36.57)" filter="url(#cardBg)">
+        <rect id="cardBg-2" data-name="cardBg" width="880.121" height="299" rx="8" transform="translate(169.36 48.5) rotate(4)" fill="#fff"/>
+      </g>
+      <g id="eth" transform="translate(28.935 178.435)">
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="142.266" height="38.581" rx="19" fill="#ff5353" opacity="0.3"/>
+      </g>
+      <g id="chart" transform="translate(258.008 38.581)">
+        <rect id="bar" width="36.169" height="192.903" transform="translate(50.637)" fill="#f6f8fa"/>
+        <rect id="bar-2" data-name="bar" width="36.169" height="192.903" transform="translate(231.484)" fill="#f6f8fa"/>
+        <rect id="bar-3" data-name="bar" width="36.169" height="192.903" transform="translate(412.331)" fill="#f6f8fa"/>
+        <rect id="bar-4" data-name="bar" width="36.169" height="192.903" transform="translate(141.06)" fill="#f6f8fa"/>
+        <rect id="bar-5" data-name="bar" width="36.169" height="192.903" transform="translate(321.907)" fill="#f6f8fa"/>
+        <rect id="bar-6" data-name="bar" width="36.169" height="192.903" transform="translate(501.548)" fill="#f6f8fa"/>
+        <rect id="bar-7" data-name="bar" width="36.169" height="192.903" transform="translate(96.452)" fill="#f6f8fa"/>
+        <rect id="bar-8" data-name="bar" width="36.169" height="192.903" transform="translate(276.093)" fill="#f6f8fa"/>
+        <rect id="bar-9" data-name="bar" width="36.169" height="192.903" transform="translate(456.94)" fill="#f6f8fa"/>
+        <rect id="bar-10" data-name="bar" width="36.169" height="192.903" transform="translate(186.875)" fill="#f6f8fa"/>
+        <rect id="bar-11" data-name="bar" width="36.169" height="192.903" transform="translate(366.516)" fill="#f6f8fa"/>
+        <rect id="bar-12" data-name="bar" width="36.169" height="192.903" transform="translate(547.363)" fill="#f6f8fa"/>
+        <path id="gradientFill" d="M499.137,143.472H0V78.8L47.053,17.07,93.177,45.625l42.765-27.711,44.983,121.563,45.73-128.489,43.987,70.977L318.954,34.6,362.113,52.72l43.524-34.806L452.618,34.6,499.137,0" transform="translate(67.516 48.226)" opacity="0.2" fill="url(#linear-gradient)"/>
+        <path id="graphLine" d="M0,78.9,46.359,15.3l46.025,30.61,43.625-29.133,44.45,121.873L226.271,9.321l44.278,73.124L318.613,33.66,361.68,53.08l43.932-36.3L452.581,33.66,497.931,0" transform="translate(68.722 49.431)" fill="none" stroke="#ff5353" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.65"/>
+        <circle id="Oval_6_Copy_11" data-name="Oval 6 Copy 11" cx="5.425" cy="5.425" r="5.425" transform="translate(289.355 51.843)" fill="#fff" stroke="#4360df" stroke-miterlimit="10" stroke-width="1.65"/>
+        <text id="Mar" transform="translate(69.871 215.343)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-12.415" y="0">Mar</tspan></text>
+        <text id="_100" data-name="$100" transform="translate(32.617 171.94)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-28.574" y="0">$100</tspan></text>
+        <text id="_150" data-name="$150" transform="translate(32.617 124.919)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-28.574" y="0">$150</tspan></text>
+        <text id="_200" data-name="$200" transform="translate(33 79.105)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-31.889" y="0">$200</tspan></text>
+        <text id="_250" data-name="$250" transform="translate(33 32.085)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-31.889" y="0">$250</tspan></text>
+        <text id="May" transform="translate(159.486 214.343)" fill="#79828b" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-12.6" y="0">May</tspan></text>
+        <text id="Jul" transform="translate(248.923 215.343)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-9.204" y="0">Jul</tspan></text>
+        <text id="Sep" transform="translate(338.73 215.343)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-12.24" y="0">Sep</tspan></text>
+        <text id="Jan" transform="translate(518.974 215.343)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-11.999" y="0">Jan</tspan></text>
+        <text id="Nov" transform="translate(430.359 215.343)" fill="#79828b" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="-12.376" y="0">Nov</tspan></text>
+        <g transform="matrix(1, -0.07, 0.07, 1, -430.34, -75.15)" filter="url(#Rectangle_7)">
+          <g id="Rectangle_7-2" data-name="Rectangle 7" transform="translate(678.52 130.03) rotate(4)" fill="#fff" stroke="#6271d2" stroke-miterlimit="10" stroke-width="1.1">
+            <rect width="78.367" height="37.375" rx="15.5" stroke="none"/>
+            <rect x="0.55" y="0.55" width="77.267" height="36.275" rx="14.95" fill="none"/>
+          </g>
+        </g>
+        <text id="_226" data-name="$226" transform="translate(293.462 34.262)" fill="#42505c" font-size="19" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.042em"><tspan x="-24.424" y="0">$226</tspan></text>
+      </g>
+    </g>
+    <rect id="Rectangle_486" data-name="Rectangle 486" width="167.585" height="16.879" rx="7" transform="translate(195.141 219.758)" fill="#fb5252"/>
+    <rect id="Rectangle_487" data-name="Rectangle 487" width="169.996" height="16.879" rx="8" transform="translate(195.141 280.04)" fill="#fb5252" opacity="0.3"/>
+    <rect id="Rectangle_488" data-name="Rectangle 488" width="54.254" height="16.879" rx="8" transform="translate(195.141 313.798)" fill="#fb5252" opacity="0.3"/>
+    <rect id="Rectangle_490" data-name="Rectangle 490" width="114.536" height="10.851" rx="5" transform="translate(195.141 424.718)" fill="#ff5353" opacity="0.3"/>
+    <rect id="Rectangle_491" data-name="Rectangle 491" width="98.863" height="10.851" rx="5.425" transform="translate(208.403 378.903)" fill="#fff" opacity="0.44"/>
+  </g>
+</svg>

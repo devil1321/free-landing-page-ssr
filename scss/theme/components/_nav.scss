@@ -1,0 +1,13 @@
+.nav{
+    @include createFlex(row,space-between,center,null);
+    &__logo{
+        font-size:$f-logo-s;
+    }
+    &__btn{
+        padding:8px 16px;
+        color:$main-fill;
+        background:transparent;
+        border:2px solid $main-fill;
+        border-radius: 25px;
+    }
+}

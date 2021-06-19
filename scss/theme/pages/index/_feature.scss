@@ -1,0 +1,73 @@
+.feature{
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index: 3;
+    @include createFlex(row,space-between,center,wrap);
+    &__left-group{
+        @include createFlex(column,center,flex-start,null);
+        width: 50%;
+        height:700px;
+        h2{
+            // gsap to 0px
+            position: relative;
+            left:-1000px;
+            top:0px;
+        }
+        p{
+            // gsap to 0px
+            position: relative;
+            left:-1000px;
+            top:0px;
+        }
+        button{
+            // gsap to -5px
+            position: relative;
+            left:-1000px;
+            top:0px;
+            border:0px;
+            outline:none;
+            background: transparent;
+            i{
+                margin-left: 5px;
+            }
+            &:active{
+                outline:none;
+            }
+        }
+    }
+    &__right-group{
+        width: 50%;
+        position:relative;
+        left:0px;
+        top:0px;
+        &:after{
+            content:'';
+            position:absolute;
+            z-index: -1;
+            left:-200px;
+            top:-500px;
+            width:1200px;
+            height:1200px;
+            background-image: url('../../../../assets/elipse-gray.svg');
+            background-size: cover;
+        }
+    }
+    &__svg-wrapper{
+        position: absolute;
+        top:0px;
+        left:0px;
+        &:first-of-type{
+            // gsap to left 100 and top -300
+            opacity: 0.5;
+            top:-400px;
+            left:1000px;
+        }
+        &:last-of-type{
+            // gsap to 0 and -100
+            opacity: 0.5;
+            left:-100px;
+            top:500px
+        }
+    }
+}

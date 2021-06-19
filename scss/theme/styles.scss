@@ -1,0 +1,22 @@
+/*------------------GLOBAL--------------------*/
+
+@import '../variables';
+@import '../normalize';
+@import '../mixins';
+@import '../fonts';
+@import '../global';
+
+/*------------------COMPONENTS-----------------*/
+
+@import './components/nav';
+
+
+/*------------------PAGES----------------------*/
+// index
+@import './pages/index/svg';
+@import './pages/index/hero';
+@import './pages/index/cards-one';
+@import './pages/index/article';
+@import './pages/index/feature';
+@import './pages/index/testimonials';
+@import './pages/index/end';

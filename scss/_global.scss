@@ -1,0 +1,33 @@
+body{
+    background-color: $main-fill;
+    font-family: $f-fam;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    font-family: $f-fam;
+    color:$f-main-color;
+}
+h1{
+    font-family: $f-fam;
+    color:$f-main-color;
+    font-weight: $f-bold;
+}
+h2{
+    font-family: $f-fam;
+    color:$f-main-color;
+    font-weight: $f-md;
+}
+p{
+    font-family: $f-fam;
+    color:$f-gray-color;
+    font-weight: $f-light;
+}
+button{
+    font-family: $f-fam;
+    font-weight: $f-md;
+}
+.container{
+    font-family:$f-fam;
+    padding:0px 80px;
+}
