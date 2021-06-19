@@ -9,7 +9,7 @@ app.use(express.static('public'))
 app.use(express.static(path.join(__dirname, '/views')));
 app.use(express.urlencoded({extended:true}))
 
-app.get('/',(req,res)=>{
+app.use('/',(req,res)=>{
     res.render('index.ejs')
     res.end()
 })
